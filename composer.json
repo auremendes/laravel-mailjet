@@ -29,6 +29,12 @@
         "mailjet/mailjet-apiv3-php": "^1.2",
         "mailjet/mailjet-swiftmailer": "^1.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/auremendes/laravel-mailjet"
+        }
+    ],
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
